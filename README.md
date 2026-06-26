@@ -28,13 +28,28 @@ Customer churn prediction helps businesses identify customers who are likely to 
 
 ## Workflow
 
-1. Load Dataset
-2. Data Preprocessing
-3. Exploratory Data Analysis
-4. Feature Engineering
-5. Train Machine Learning Model
-6. Evaluate Performance
-7. Predict Customer Churn
+Dataset
+   │
+   ▼
+Preprocessing
+   │
+   ▼
+EDA
+   │
+   ▼
+Feature Engineering
+   │
+   ▼
+Train/Test Split
+   ├──────────────┐
+   ▼              │
+Model Training    │
+   │              │
+   ▼              │
+Prediction ◄──── Test Data
+   │
+   ▼
+Evaluation Metrics
 
 ## Machine Learning Algorithms
 
