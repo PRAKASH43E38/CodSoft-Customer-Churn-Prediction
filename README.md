@@ -26,30 +26,49 @@ Customer churn prediction helps businesses identify customers who are likely to 
 - Scikit-learn
 - Google Colab
 
-## Workflow
+## System Architecture
 
-Dataset
-   │
-   ▼
-Preprocessing
-   │
-   ▼
-EDA
-   │
-   ▼
-Feature Engineering
-   │
-   ▼
-Train/Test Split
-   ├──────────────┐
-   ▼              │
-Model Training    │
-   │              │
-   ▼              │
-Prediction ◄──── Test Data
-   │
-   ▼
-Evaluation Metrics
+```text
++-----------------------+
+| Customer Dataset      |
++----------+------------+
+           |
+           v
++-----------------------+
+| Data Preprocessing    |
++----------+------------+
+           |
+           v
++-----------------------+
+| Exploratory Data      |
+| Analysis (EDA)        |
++----------+------------+
+           |
+           v
++-----------------------+
+| Feature Engineering   |
++----------+------------+
+           |
+           v
++-----------------------+
+| Train/Test Split      |
++----------+------------+
+           |
+           v
++-----------------------+
+| ML Model Training     |
++----------+------------+
+           |
+           v
++-----------------------+
+| Model Evaluation      |
++----------+------------+
+           |
+           v
++-----------------------+
+| Churn Prediction      |
++-----------------------+
+```
 
 ## Machine Learning Algorithms
 
