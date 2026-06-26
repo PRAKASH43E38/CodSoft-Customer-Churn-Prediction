@@ -28,7 +28,6 @@ Customer churn prediction helps businesses identify customers who are likely to 
 
 ## System Architecture
 
-```text
 +-----------------------+
 | Customer Dataset      |
 +----------+------------+
@@ -68,7 +67,6 @@ Customer churn prediction helps businesses identify customers who are likely to 
 +-----------------------+
 | Churn Prediction      |
 +-----------------------+
-```
 
 ## Machine Learning Algorithms
 
